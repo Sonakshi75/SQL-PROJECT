@@ -1,0 +1,18 @@
+body{
+  text-align: center;
+}
+.home_page{
+  padding: 15% 15%;
+  background-color: #CEE5D0;
+}
+.index_page{
+  padding: 13% 13%;
+  background-color: #FFE3E3;
+}
+a{
+  text-decoration: none;
+  color: brown;
+}
+a:hover{
+  color: red;
+}

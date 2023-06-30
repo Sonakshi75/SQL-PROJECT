@@ -1,0 +1,18 @@
+<%-include("partials/header.ejs")-%>
+<section class="index_page">
+<h1 class="blockquote">Welcome!</h1>
+<p class="blockquote-footer">Hope you all are having a great time</p>
+<h3>Join our <em><%=count%> </em>  Users. We will not let you down</h3>
+<form method = "post" action='/register'>
+  <div class="mb-3 row">
+    <label class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input name="userEmail" type="email"class="form-control" placeholder="email@example.com">
+    </div>
+  </div>
+  <button type="submit" class="btn btn-outline-secondary">Submit</button>
+  <button type="reset" class="btn btn-outline-secondary">Reset</button>
+
+</form>
+</section>
+<%-include("partials/footer.ejs")-%>
